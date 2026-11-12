@@ -8,7 +8,9 @@ A Claude Code plugin that stops Claude from changing anything on `main` or `mast
 /plugin install worktree-guard --marketplace devnazir/worktree-guard
 ```
 
-Press `y`, then Enter. The repo is private, so you need access to it and a GitHub login on your machine (`gh auth login`, then `gh auth setup-git`).
+Press `y` to add the marketplace, then Enter to install for your user.
+
+To update later: `claude plugin update worktree-guard`.
 
 ## What it blocks
 
