@@ -1,0 +1,13 @@
+{
+  "name": "worktree-guard",
+  "version": "0.1.0",
+  "description": "Blocks Claude from editing files on protected branches (default: main, master) so parallel sessions work in git worktrees.",
+  "userConfig": {
+    "protectedBranches": {
+      "type": "string",
+      "title": "Protected branches",
+      "description": "Comma-separated branch names Claude may not edit on. A trailing * matches a prefix, e.g. release/*",
+      "default": "main,master"
+    }
+  }
+}

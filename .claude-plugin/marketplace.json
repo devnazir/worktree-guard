@@ -1,0 +1,5 @@
+{
+  "name": "worktree-guard",
+  "owner": { "name": "devnazir" },
+  "plugins": [{ "name": "worktree-guard", "source": "./" }]
+}
